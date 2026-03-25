@@ -1,4 +1,4 @@
-# 📚 Projeto Django - Guia para Iniciantes
+# 📚 Projeto Django - Iniciante
 
 Este projeto foi criado com o objetivo de aprender os conceitos básicos do Django, um framework web poderoso em Python.
 
@@ -15,7 +15,7 @@ Este é um projeto simples utilizando o framework Django, ideal para quem está 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/ThiagoLimaSanto/python-django-begin.git
 cd seu-projeto
 ```
 
