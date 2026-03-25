@@ -7,3 +7,16 @@ class Topic(models.Model):
     def __str__(self):
         """Devolve uma representacao em string do modelo."""
         return self.text
+    
+class Entry(models.Model):
+    """Algo especifico aprendido sobre um assunto."""
+    topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
+    text = models.TextField()
+    data_added = models.DateTimeField(auto_now_add=True)
+    
+    class Meta:
+        verbose_name_plural = 'entries'
+            
+    def __str__(self):
+        """Devolve uma representacao em string do modelo"""
+        return self.text[:50] + "..."
