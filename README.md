@@ -15,7 +15,7 @@ Este é um projeto simples utilizando o framework Django, ideal para quem está 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/ThiagoLimaSanto/python-django-begin.git
 cd seu-projeto
 ```
 
