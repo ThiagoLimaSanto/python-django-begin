@@ -2,13 +2,13 @@
 <div class="jumbotron">
   <h1>Acompanhe o seu aprendizado</h1>
 </div>
-{% endblock header %} {% block content %}
+{% endblock header %} {% block content %} {% if not user.is_authenticated %}
 <h2>
   <a href="{% url 'register' %}">Crie uma conta</a> para utilizar o Learning Log
   e liste os tópicos que você está aprendendo.
 </h2>
-
+{% else %}
 <h2>
-    Sempre que você aprender algo novo sobre um tópico, aduica uma nova anotação.
+  Sempre que você aprender algo novo sobre um tópico, aduica uma nova anotação.
 </h2>
-{% endblock content %}
+{% endif %} {% endblock content %}
